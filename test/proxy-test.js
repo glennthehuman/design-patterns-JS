@@ -2,6 +2,10 @@ const expect = require('chai').expect;
 
 const [Car, CarProxy, Driver] = require('../src/structural/proxy/proxy');
 
+/**
+ * In proxy pattern, a class represents functionality of another class. This type of design pattern comes under structural pattern.
+ * In proxy pattern, we create object having original object to interface its functionality to outer world.
+ */
 describe('proxy tests', () => {
 
   it('sanity', () => {

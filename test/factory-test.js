@@ -1,6 +1,10 @@
 const expect = require('chai').expect;
 const bmwFactory = require('../src/creational/factory/factory');
 
+/**
+ * This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+ * In Factory pattern, we create object without exposing the creation logic to the client and refer to newly created object using a common interface.
+ */
 describe('factory test', () => {
   it('sanity', () => {
     var x5 = bmwFactory('X5');

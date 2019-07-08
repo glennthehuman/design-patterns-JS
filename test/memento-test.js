@@ -2,6 +2,9 @@ const expect = require('chai').expect;
 
 const [originator, Caretaker] = require('../src/behavioral/memento/memento');
 
+/**
+ * Memento pattern is used to restore state of an object to a previous state. Memento pattern falls under behavioral pattern category.
+ */
 describe('memento tests', () => {
 
   it('sanity', () => {
